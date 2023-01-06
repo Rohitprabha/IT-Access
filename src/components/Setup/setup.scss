@@ -1,0 +1,333 @@
+.setup {
+  .mainheader {
+    color: #2368a0;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  .setupLoaderSty {
+    margin: auto;
+    position: relative;
+    top: 20%;
+    width: 20%;
+  }
+
+  .cursorSty {
+    cursor: pointer;
+  }
+
+  .buttonStyles {
+    background: #2368a0 !important;
+    color: white !important;
+    width: 100px;
+  }
+
+  .buttonStyles:hover {
+    background-color: #00aae7 !important;
+    color: white !important;
+  }
+
+  .tile-label {
+    color: grey;
+    font-size: 16px;
+    font-weight: 800;
+  }
+
+  .card-label {
+    color: #2368a0;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .notALink {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .card-sample:hover {
+    border: 1px solid #b7b2b3;
+    box-shadow: inset 6.5em 0 0 0 var(--hover);
+  }
+
+  .cardPointer {
+    cursor: pointer;
+  }
+
+  .iconStyle {
+    font-size: 1.8rem;
+    color: #2368a0;
+  }
+
+  .paragraphStyle {
+    margin-left: 33px;
+    font-size: 1.1rem;
+  }
+
+  .fontStyle {
+    font-size: 1.06rem;
+  }
+
+  .ant-layout-content {
+    position: relative;
+    padding-bottom: 30px;
+  }
+
+  .spinnerTop {
+    margin-top: 11rem !important;
+  }
+  .ant-table-tbody > tr > td {
+    // text-align: center;
+  }
+    .content-tabs {
+    flex-grow: 1;
+  }
+  .content {
+    background: white;
+    padding: 40px 60px 60px 60px;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .active-content {
+    display: block;
+  }
+  .ant-table-wrapper{
+    overflow-x: auto;
+  }
+}
+
+.application {
+  .ant-list-item-meta-title {
+    margin-bottom: 0;
+  }
+
+  .listHeader {
+    font-weight: 600;
+  }
+  .header {
+    color: #2368a0;
+    font-size: 1.8rem !important;
+    font-weight: 700;
+    letter-spacing: 0 !important;
+  }
+
+  .listHeader-heading {
+    font-size: 1.25rem;
+  }
+
+  .listBodyStyle {
+    max-height: 50vh;
+  }
+
+  .listBodyOverflow {
+    overflow: auto;
+    overflow-x: hidden;
+  }
+
+  .buttonStyles {
+    background: #2368a0 !important;
+    color: white !important;
+    width: 100px;
+  }
+
+  .buttonStyles:hover {
+    background-color: #00aae7 !important;
+    color: white !important;
+  }
+
+  .iconStyle {
+    font-size: 1.8rem;
+    color: #2368a0;
+  }
+
+  .spinnerTop {
+    margin-top: 11rem !important;
+  }
+
+  .actionStyle {
+    margin-right: 28px;
+  }
+
+  .leftStyle {
+    margin-left: 2rem;
+  }
+
+  .spinnerColor {
+    color: white !important;
+  }
+
+  .saveSpinner {
+    margin-right: 10px;
+    font-size: 1rem;
+  }
+
+  .cursorStyle {
+    cursor: pointer;
+  }
+
+  .inputWidth {
+    width: calc(100% - 78%) !important;
+  }
+
+  .applicationResponsive {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .searchRes {
+    width: 100%;
+  }
+  .inputfield {
+    width: 15rem;
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 6px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 100% !important;
+    word-break: break-all;
+  }
+
+  .bloc-tabs {
+    display: flex;
+  }
+  .tabs {
+    padding: 15px;
+    text-align: center;
+    width: 10%;
+    background: rgba(128, 128, 128, 0.075);
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+  }
+  .tabs:not(:last-child) {
+    border-right: 1px solid rgba(0, 0, 0, 0.274);
+  }
+
+  .active-tabs {
+    background: white;
+    border-bottom: 1px solid transparent;
+    font-weight: 600;
+  }
+
+  .active-tabs::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 5px;
+    background: rgb(88, 147, 241);
+  }
+
+  .btnStyles {
+    background: #2368a0 !important;
+    color: white !important;
+  }
+
+  .btnStyles:hover {
+    background-color: #00aae7 !important;
+    color: white !important;
+  }
+
+  button {
+    border: none;
+  }
+  .content-tabs {
+    flex-grow: 1;
+  }
+  .content {
+    background: white;
+    padding: 40px 60px 60px 60px;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .active-content {
+    display: block;
+  }
+  .tempBody {
+    height: 40vh;
+    border: ridge;
+  }
+
+  .linkStyle {
+    color: black;
+    font-size: 1.1rem;
+  }
+
+  .linkStyle:hover {
+    text-decoration: none;
+    color: #00aae7;
+  }
+  .hidetext {
+    -webkit-text-security: disc;
+  }
+  .ant-table-wrapper{
+    overflow-x: auto;
+  }
+}
+
+.selectStyle {
+  font-size: 1rem !important;
+
+  .ant-select-selection-search {
+    display: none;
+  }
+
+  .ant-select-selector {
+    cursor: default !important;
+    float: left !important;
+    padding: 0;
+    margin: 0;
+    overflow-wrap: anywhere;
+    flex-flow: nowrap !important;
+  }
+
+  .selectColorStyle {
+    color: #00aae7;
+  }
+
+  .ant-select-selection-overflow-item {
+    display: block !important;
+  }
+
+  .ant-select-selection-item {
+    white-space: pre-wrap !important;
+    overflow: visible !important;
+    height: 40px !important;
+    border: 1px solid black !important;
+    align-items: center !important;
+  }
+
+  .ant-select-multiple .ant-select-selection-item-content {
+    white-space: initial !important;
+    overflow: visible !important;
+  }
+  .ant-select-selection-item-remove .anticon {
+    vertical-align: top !important;
+    font-size: 0.8rem !important;
+  }
+}
+
+.ant-select-multiple .ant-select-selection-item-content {
+  display: inline-block !important;
+  margin-right: 20px !important;
+  overflow: hidden !important;
+  white-space: pre !important;
+  text-overflow: ellipsis;
+  margin-left: 20px;
+}

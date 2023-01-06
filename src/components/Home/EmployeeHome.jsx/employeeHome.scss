@@ -1,0 +1,308 @@
+.byEmployeeHomeDetail {
+  .ant-select-selector {
+    background: #e9ecef !important;
+    text-align: left;
+  }
+  .ant-picker.ant-picker-disabled {
+    background: #e9ecef !important;
+  }
+  .ant-picker-input > input[disabled] {
+    font-weight: 900 !important;
+  }
+  .ant-select-single .ant-select-selector .ant-select-selection-item {
+    font-weight: 900;
+  }
+  .profFont {
+    font-weight: 900 !important;
+  }
+    .ant-select-selection-item-remove .anticon {
+    display: none;
+  }
+}
+
+.newEmployeeDeatils {
+  .ant-list-item-meta-title {
+    margin-bottom: 0;
+  }
+
+  .listHeader {
+    font-weight: 600;
+  }
+  .header {
+    color: #2368a0;
+    font-size: 1.8rem !important;
+    font-weight: 700;
+    letter-spacing: 0 !important;
+  }
+
+  .listHeader-heading {
+    font-size: 1.25rem;
+  }
+
+  .listBodyStyle {
+    max-height: 50vh;
+  }
+
+  .listBodyOverflow {
+    overflow: auto;
+    overflow-x: hidden;
+  }
+
+  .linkStyle {
+    color: black;
+    font-size: 1.1rem;
+  }
+
+  .linkStyle:hover {
+    text-decoration: none;
+    color: #00aae7;
+  }
+
+  .buttonSty {
+    background: #2368a0 !important;
+    color: white !important;
+    width: 120px !important;
+  }
+
+  .buttonSty:hover {
+    background-color: #00aae7 !important;
+    color: white !important;
+  }
+
+  .iconStyle {
+    font-size: 1.8rem;
+    color: #2368a0;
+  }
+
+  .hrStyles {
+    background: white;
+    margin: 0px 5px;
+  }
+
+  .spinnerTop {
+    margin-top: 11rem !important;
+  }
+
+  .actionStyle {
+    margin-right: 28px;
+  }
+
+  .leftStyle {
+    margin-left: 2rem;
+  }
+
+  .spinnerColor {
+    color: white !important;
+  }
+
+  .saveSpinner {
+    margin-right: 5px;
+    font-size: 1rem;
+  }
+
+  .cursorStyle {
+    cursor: pointer;
+  }
+
+  .inputWidth {
+    width: calc(100% - 78%) !important;
+  }
+
+  .applicationResponsive {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .searchRes {
+    width: 100%;
+  }
+  .inputfield {
+    width: 15rem;
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 6px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 100% !important;
+    word-break: break-all;
+  }
+
+  .bloc-tabs {
+    display: flex;
+  }
+  .tabs {
+    padding: 15px;
+    text-align: center;
+    width: 10%;
+    background: rgba(128, 128, 128, 0.075);
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+  }
+  .tabs:not(:last-child) {
+    border-right: 1px solid rgba(0, 0, 0, 0.274);
+  }
+
+  .active-tabs {
+    background: white;
+    border-bottom: 1px solid transparent;
+    font-weight: 600;
+  }
+
+  .active-tabs::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 5px;
+    background: rgb(88, 147, 241);
+  }
+
+  .btnStyles {
+    background: #2368a0 !important;
+    color: white !important;
+  }
+
+  .btnStyles:hover {
+    background-color: #00aae7 !important;
+    color: white !important;
+  }
+
+  button {
+    border: none;
+  }
+  .content-tabs {
+    flex-grow: 1;
+  }
+  .content {
+    background: white;
+    padding: 30px 60px 50px 60px;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .active-content {
+    display: block;
+  }
+  .tempBody {
+    height: 30vh;
+    border: ridge;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .tname {
+    color: #007bff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .tempEmpBody {
+    height: 30vh;
+    border: ridge;
+  }
+  .orSty {
+    font-size: 1rem;
+    align-self: center;
+  }
+  .chooseSty {
+    height: fit-content;
+    text-align: center;
+    border: thin lightskyblue;
+    border-style: ridge;
+  }
+  .chooseStyEmp {
+    height: fit-content;
+    text-align: center;
+    border: thin lightskyblue;
+    border-style: ridge;
+  }
+  .chooseStyEmpApp {
+    height: 27vh;
+    text-align: center;
+    border: thin lightskyblue;
+    border-style: ridge;
+  }
+  .referenceSty{
+    text-align: center;
+    border: thin lightskyblue;
+    border-style: ridge;
+  }
+  .empDetailsSty {
+    text-align: center;
+    border: thin lightskyblue;
+    border-style: ridge;
+  }
+  .mainTitle {
+    margin-top: -13px;
+    width: fit-content;
+    padding: 0px 12px;
+    background: white;
+    margin-left: 2%;
+    font-weight: 600;
+    font-size: 0.9em;
+    letter-spacing: 2px;
+  }
+  .editHide {
+    display: none;
+  }
+  .selectStylesCls{
+  font-size: 1rem !important;
+
+  .ant-select-selection-search {
+    display: none;
+  }
+
+  .ant-select-selector {
+    cursor: default !important;
+    float: left !important;
+    padding: 0;
+    margin: 0;
+    overflow-wrap: anywhere;
+    flex-flow: nowrap !important;
+  }
+
+  .selectColorStyle {
+    color: #00aae7;
+  }
+
+  .ant-select-selection-overflow-item {
+    display: block !important;
+  }
+
+  .ant-select-selection-item {
+    white-space: pre-wrap !important;
+    overflow: visible !important;
+    height: 40px !important;
+    border: 1px solid black !important;
+    align-items: center !important;
+  }
+
+  .ant-select-multiple .ant-select-selection-item-content {
+    white-space: initial !important;
+    overflow: visible !important;
+  }
+  .ant-select-selection-item-remove .anticon {
+    display: none;
+  }
+}
+.ant-collapse-content-box{
+    display: flow-root !important;
+  }
+  .ant-collapse-content > .ant-collapse-content-box{
+    padding: 20px 0px !important;
+  }
+}

@@ -1,0 +1,5 @@
+{
+    "api":"http://localhost:5001/",
+    "api_dev":"",
+    "api_prod":""
+}

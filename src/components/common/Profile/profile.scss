@@ -1,0 +1,66 @@
+.profileDetails {
+  .iconStyle {
+    font-size: 1.8rem;
+    color: #00aae7;
+  }
+
+  .profilepic {
+    align-items: center;
+    padding-top: 35px;
+  }
+
+  .profileName {
+    font-family: Arial, Helvetica, sans-serif !important;
+    width: 3rem !important;
+    height: 3rem !important;
+    border-radius: 50% !important;
+    background: #004d3c !important;
+    padding: 2px;
+    font-size: 1.2rem !important;
+    color: #fff !important;
+    text-align: center !important;
+    line-height: 3rem !important;
+    margin: 18px !important;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .userName {
+    padding-top: 28px;
+  }
+  .ant-select-selector {
+    background: #e9ecef !important;
+  }
+  .ant-picker.ant-picker-disabled {
+    background: #e9ecef !important;
+  }
+  .ant-select-single .ant-select-selector .ant-select-selection-item {
+    font-weight: 900;
+  }
+  .mCancel {
+    left: 88.5% !important;
+    font-size: 1rem;
+    height: fit-content !important;
+    width: 118px;
+  }
+  .profFont {
+    font-weight: 900;
+  }
+  .pass{
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+  }
+  .passInput{
+    border: none !important;
+  }
+  .form-control:focus{
+    box-shadow: none !important;
+  }
+  .password{
+    cursor: pointer;
+    margin-top: 0.7rem;
+  }
+}

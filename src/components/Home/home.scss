@@ -1,0 +1,330 @@
+.home {
+  .nlpApps {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .bot-tile {
+    padding: 2rem;
+    height: 100%;
+  }
+
+  .section-header {
+    color: #2368a0;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 1.8rem;
+  }
+
+  .pageLoaderSty {
+    margin: auto;
+    position: relative;
+    // top: 41%;
+    width: 20%;
+  }
+
+  .dashboardLoaderSty {
+    margin: auto;
+    position: relative;
+    // top: 41%;
+    width: 20%;
+  }
+
+  .divCenter {
+    position: absolute;
+    font-size: 1.2rem;
+    color: #00aae7;
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+  }
+
+  .add-button {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+
+    .chooseSty {
+    border: thin lightskyblue;
+    border-style: ridge;
+  }
+    .mainTitle {
+    margin-top: -13px;
+    width: fit-content;
+    padding: 0px 12px;
+    background: white;
+    margin-left: 2%;
+    font-weight: 600;
+    font-size: 0.9em;
+    letter-spacing: 2px;
+  }
+  .s {
+    /* float: right; */
+    width: fit-content;
+  }
+
+  .w {
+    width: max-content;
+  }
+
+  .mw {
+    max-width: fit-content;
+  }
+
+  .bot {
+    overflow: hidden;
+    display: grid;
+    cursor: auto;
+  }
+
+  .ant-menu-submenu-arrow {
+    display: none !important;
+  }
+
+  // .ant-input-search-large .ant-input-search-button {
+  //   height: 34px;
+  // }
+
+  .ant-tabs-tab-btn {
+    font-size: 1.5rem;
+  }
+
+  .ant-tabs-tab-active {
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  .loaderText {
+    font-size: 20px;
+    font-weight: 600;
+    color: #2368a0;
+  }
+
+  .spinner {
+    color: #2368a0;
+  }
+
+  .ant-input-search-button {
+    background: #2368a0;
+    color: #ffffff !important;
+  }
+
+  .ant-input-search-button:hover {
+    background: #00aae7;
+  }
+
+  .appsBG {
+    background-color: #f0f2f5;
+  }
+
+  .ant-layout-header {
+    background: #363636 !important;
+    padding: 0px 22px;
+  }
+
+  .buttonStyle {
+    background: #2368a0 !important;
+    color: #ffffff !important;
+  }
+
+  .buttonStyle:hover {
+    background-color: #00aae7 !important;
+    color: #ffffff !important;
+  }
+
+  .searchPadding {
+    padding: 0px 0px 0px 21px;
+  }
+
+  .fontsize {
+    // font-size: 1.1rem;
+  }
+
+  .imgStyle {
+    height: 90%;
+    position: absolute;
+    right: 13px;
+  }
+  .createdStyle {
+    position: sticky;
+    top: 100%;
+  }
+  .searchWidth {
+    width: 25%;
+  }
+  .centerContent {
+    position: sticky;
+    top: 50%;
+  }
+  .ant-tabs-content {
+    height: 100%;
+  }
+  .ant-tabs {
+    height: 100%;
+  }
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #b7b2b3;
+    border-radius: 6px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .w-25 {
+      width: 100%;
+      max-width: 300px;
+      min-width: 300px;
+    }
+    .sideLine {
+      width: 100%;
+      min-width: 220px !important;
+      max-width: 220px !important;
+    }
+    .msgStyle {
+      width: max-content;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    .searchbar {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 10px !important;
+    }
+    .w-25 {
+      width: 100%;
+      max-width: 300px;
+      min-width: 300px;
+    }
+    .sideLine {
+      width: 100%;
+      min-width: 220px !important;
+      max-width: 220px !important;
+    }
+    .msgStyle {
+      width: max-content;
+    }
+    .searchWidth {
+      align-self: end;
+      width: 50% !important;
+    }
+  }
+
+  @media screen and (max-width: 470px) {
+    .w-25 {
+      width: 100%;
+      max-width: 250px;
+      min-width: 250px;
+    }
+    .searchWidth {
+      width: 100% !important;
+    }
+  }
+}
+
+.modalFont {
+  width: 75rem !important;
+  .password {
+    cursor: pointer;
+    margin-left: -30px;
+    margin-top: 13px;
+  }
+
+  .icon-sty {
+    width: 30px;
+    color: darkgray;
+  }
+  .ant-modal-title {
+    font-size: 1.3rem;
+  }
+  .ant-modal-close-x {
+    height: fit-content;
+  }
+
+  .fontsize {
+    // font-size: 1.09rem;
+  }
+
+  .ant-modal-close {
+    height: 54px;
+  }
+
+  .ant-modal-close-icon {
+    display: flow-root;
+  }
+  .ant-modal-content .ant-modal-header .ant-modal-title {
+    color: #2368a0;
+  }
+
+  .buttonStyle {
+    background: #2368a0 !important;
+    color: #ffffff !important;
+  }
+
+  .buttonStyle:hover {
+    background-color: #00aae7 !important;
+    color: #ffffff !important;
+  }
+
+  .form-control {
+    font-size: inherit !important;
+  }
+}
+
+.modalWidth {
+  width: 634px !important;
+}
+
+@media screen and (max-width: 1366px) {
+  .msgStyle {
+    hyphens: auto;
+  }
+}
+@media screen and (max-width: 1330px) {
+  .imgStyle {
+    height: 70% !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .imgStyle {
+    height: 55% !important;
+    margin-top: 10%;
+  }
+}
+@media screen and (min-width: 1081px) and (max-width: 1112px) {
+  .imgStyle {
+    height: 50% !important;
+    margin-top: 10%;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .searchWidth {
+    width: 31% !important;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .imgStyle {
+    height: 40% !important;
+    margin-top: 10%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .imgStyle {
+    height: 30% !important;
+    margin-top: 15%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .centerContent {
+    top: 45% !important;
+    position: sticky;
+  }
+}
+@media screen and (max-width: 400px) {
+  .centerContent {
+    top: 40% !important;
+    position: sticky;
+  }
+}

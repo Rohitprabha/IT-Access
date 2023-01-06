@@ -1,0 +1,34 @@
+.ant-notification-topRight {
+  top: 15% !important;
+  right: 0.8% !important;
+}
+
+.notificationStyle {
+  padding: 2px 0px;
+  color: white;
+}
+
+.ant-notification-notice-content {
+  margin-top: 9px;
+}
+
+.ant-notification-notice {
+  background: #363636 !important;
+  width: 105% !important;
+  padding: 5px 23px !important;
+}
+
+.ant-notification-notice-close {
+  color: white !important;
+  top: 13px !important;
+}
+
+.ant-notification-notice-message {
+  color: white !important;
+}
+
+@media screen and (max-width: 1366px) {
+  .ant-notification-topRight {
+    top: 12% !important;
+  }
+}

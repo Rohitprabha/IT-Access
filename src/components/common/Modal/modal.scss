@@ -1,0 +1,40 @@
+.modalSection {
+  .chooseSty {
+    height: 8rem;
+    text-align: center;
+    border: thin;
+    border-style: groove;
+  }
+  .chooseInput {
+    width: 250px;
+    font-size: 1rem;
+    margin-left: 10%;
+    margin-top: 3%;
+  }
+  .mainTitle {
+    margin-top: -13px;
+    width: fit-content;
+    padding: 0px 12px;
+    letter-spacing: 1px;
+    background: white;
+    margin-left: 2%;
+  }
+  .hrStyles {
+    margin: 0px 5px;
+  }
+  .spinnerColor {
+    color: #00aae7 !important;
+  }
+  .btnWidth {
+    width: 100px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b7b2b3;
+  border-radius: 6px;
+}
